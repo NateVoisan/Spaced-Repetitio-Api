@@ -177,12 +177,12 @@ describe('User Endpoints', function () {
           words: [
             { original: 'azul', translation: 'blue' },
             { original: 'arroz', translation: 'rice' },
-            { original: 'magnificent', translation: 'magnifico' },
+            { original: 'magnifico', translation: 'magnificent' },
             { original: 'pelota', translation: 'ball' },
             { original: 'leche', translation: 'milk' },
             { original: 'agua', translation: 'water' },
-            { original: 'lemon', translation: 'limon' },
-            { original: 'bear', translation: 'oso' },
+            { original: 'limon', translation: 'lemon' },
+            { original: 'oso', translation: 'bear' },
           ]
         }
         return supertest(app)
